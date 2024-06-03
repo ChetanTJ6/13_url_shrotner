@@ -32,7 +32,7 @@ app.use(express.urlencoded({extended:false})) //---> for the form data
 
 app.use('/shortUrl',urlshort);
 app.use('/',staticRoute);
-app.use('/user',userRoute)
+
 
 
 
